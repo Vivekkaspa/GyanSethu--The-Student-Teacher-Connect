@@ -1,0 +1,51 @@
+body {
+  background: #456;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+nav,
+footer {
+  background: #28d;
+}
+.navbar-brand,
+.user-link,
+.login-link,
+.register-link {
+  color: white;
+}
+
+.navbar-brand:hover,
+.user-link:hover,
+.login-link:hover,
+.register-link:hover {
+  color: rgb(209, 204, 204);
+}
+
+.landing {
+  position: relative;
+  background: url("./img/cover.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.landing img {
+  width: 100%;
+}
+
+.landing-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 0;
+}
